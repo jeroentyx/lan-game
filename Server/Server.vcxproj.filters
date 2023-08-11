@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{1d979ad5-6cdd-4d64-90e4-9f8aa2e3821b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LanBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLobby.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Defines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Bishop.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Board.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\ChessHelper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\IChessPiece.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\King.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Knight.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Pawn.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Queen.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Rook.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Square.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Vec2.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LanBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLobby.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SendSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserCommands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetwork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wrappers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Bishop.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Board.hpp">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\ChessHelper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\IChessPiece.hpp">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\King.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Knight.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Pawn.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Queen.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Rook.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Square.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\vec2.hpp">
+      <Filter>Helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
